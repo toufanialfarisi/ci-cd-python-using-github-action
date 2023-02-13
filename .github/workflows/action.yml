@@ -1,4 +1,4 @@
-name: CI CD PYTHON
+name: CI CD PYTHON WITH GITHUB ACTION
 on: push
 
 jobs:
