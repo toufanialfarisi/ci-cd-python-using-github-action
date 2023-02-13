@@ -20,3 +20,9 @@ jobs:
           pytest
       - name: Run python app.py
         run: python app.py
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: "this is deploy"
