@@ -21,8 +21,8 @@ jobs:
       - name: Run python app.py
         run: python app.py
 
-  deploy:
-    runs-on: ubuntu-latest
-    needs: build
-    steps:
-      - name: "this is deploy"
+  # deploy:
+  #   runs-on: ubuntu-latest
+  #   needs: build
+  #   steps:
+  #     - name: "this is deploy"
